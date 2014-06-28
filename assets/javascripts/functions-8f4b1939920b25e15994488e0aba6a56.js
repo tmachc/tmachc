@@ -9,8 +9,8 @@ function getButterflyPoint(t){
     return new Array(offsetX+o,offsetY+s)
 }
 function startButterflyAnimation(){
-    var t=150,
-        n=5,
+    var t=250,  //控制画心的时间
+        n=5,   //
         e=new Array,
         a=setInterval(function(){
             for(var t=getButterflyPoint(n),i=!0,o=0;o<e.length;o++){
@@ -84,4 +84,27 @@ $(function(){
     $(window).resize(function(){
         var t=$(window).width(),n=$(window).height();
         t!=clientWidth&&n!=clientHeight&&location.replace(location)}
-    ),function(t){t.fn.typewriter=function(){return this.each(function(){var n,e=t(this),a=e.html(),i=0,o=95,s=45;e.html(""),$audio=t("#sound")[0],function r(){setTimeout(function(){n=Math.round(Math.random()*(o-s))+s;var t=a.substr(i,1);i=("<"==t?a.indexOf(">",i):i)+1,e.html(a.substr(0,i)+(1&i&&i<a.length?"_":"")),($audio.ended||$audio.paused)&&$audio.play(),i<a.length?r():$audio.pause()},n)}()}),this}}(jQuery);
+    ),
+    function(t){
+        t.fn.typewriter=function(){
+            return this.each(function(){
+                var n,
+                    e=t(this),
+                    a=e.html(),
+                    i=0,
+                    o=95,
+                    s=45;
+                e.html(""),
+                    $audio=t("#sound")[0],
+                    function r(){
+                        setTimeout(function(){
+                            n=Math.round(Math.random()*(o-s))+s;
+                            var t=a.substr(i,1);
+                            i=("<"==t?a.indexOf(">",i):i)+1,
+                                e.html(a.substr(0,i)+(1&i&&i<a.length?"_":"")),
+                                ($audio.ended||$audio.paused)&&$audio.play(),i<a.length?r():$audio.pause()
+                        },n)
+                    }()
+            }),this
+        }
+    }(jQuery);
