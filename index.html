@@ -33,29 +33,30 @@
     Girl u = new Girl(&quot;FuQi&quot;);
     guoqiban.push(&quot;FuQi&quot;);
 
-/* While I am the leader in the GuoQiBan. U are the normal classmate */
+/* I am the leader in the GuoQiBan. U are the normal classmate */
 while (Date() > Date(2012,09,28) &amp;&amp; Date() < Date(2013,08,02)) {
     // I organize raising a flag, organize training, organize a picnic.
     i.organize();
     // U joined all the activities.
     u.join();
 }
-/* while we met and happened to like each other */
-while (u.like(i) &amp;&amp; i.like(u)) {
-    // We&#39;d study English together
-    i.studyWith(u);
-    // We&#39;d watch bad movies together and laugh hard
-    i.watchMoviesWith(u);
-    // We&#39;d travel all around the world
-    i.travelWith(u);
-    // We&#39;d grow older and wiser together
+/* I begin working, I miss campus so much. */
+while (Date() >= Date(2013,08,02) &amp;&amp; Date() < Date(2014,05,08)) {
+    // I work more than 12 hours.
+    i.work();
+    // I join the meeting of GuoQiBan and other activities..
+    i.join();
+    // I chat with U. We go to the National Library together.
+    i.near(u);
+}
+/* Gradually, I find I love U. In 2014.5.8, I confess my love to U */
+    i.confess(u);
+/* In 2014.5.8, we embark on our journey of love. */
+while (Date() >= Date(2014,05,08)) {
+    // We'd take a walk all around the school
+    i.walkWith(u);
+    // We'd grow older and happier together
     i.growWith(u);
-    // We&#39;d have more festival, just like The hundred days, anniversary.
-    festivals.push('The hundred days','anniversary');
-    // We&#39;d love spending each festival together ever since
-    for (Festival x : festivals) {
-        i.enjoyFestivalWith(x, u);
-    }
 }
 </code></pre>
 
