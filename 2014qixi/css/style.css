@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family:KimGirl;
+    src: url(../ttf/KimsGirlType.ttf);
+}
+
+* { margin:0px; padding:0px;}
+body {text-align:center;font-family:KimGirl,Arial Narrow,arial,serif;font-size:20px; color:#000000;
+    line-height:45px; position:relative;margin-top: 35px;
+}
+li {list-style-type:none;}
+li strong {font-size: 30px;}
+
+#content {background:url(../img/bg.jpg) no-repeat center top;background-size: 900px 460px; margin: 0 auto;
+    height: 460px;width: 900px;
+}
+#code {height: 400px;width: 500px; text-align: left; float: left; margin-left: 150px; margin-top: 10px;}
