@@ -3,9 +3,13 @@
     font-family:KimGirl;
     src: url(../ttf/KimsGirlType.ttf);
 }
+@font-face {
+    font-family:xiaoWanZi;
+    src: url(../ttf/xiaoWanZiTi.ttf);
+}
 
 * { margin:0px; padding:0px;}
-body {text-align:center;font-family:KimGirl,Arial Narrow,arial,serif;font-size:20px; color:#000000;
+body {text-align:center;font-family:xiaoWanZi,Arial Narrow,arial,serif;font-size:20px; color:#000000;
     line-height:45px; position:relative;margin-top: 35px;
 }
 li {list-style-type:none;}
