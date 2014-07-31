@@ -13,9 +13,10 @@ body {text-align:center;font-family:xiaoWanZi,Arial Narrow,arial,serif;font-size
     line-height:45px; position:relative;margin-top: 35px;
 }
 li {list-style-type:none;}
-li strong {font-size: 30px;}
+.zhengWen {margin-top: 0px; text-align: center}
+li strong {font-size: 30px; text-align: left}
 
 #content {background:url(../img/bg.jpg) no-repeat center top;background-size: 900px 460px; margin: 0 auto;
     height: 460px;width: 900px;
 }
-#code {height: 400px;width: 500px; text-align: left; float: left; margin-left: 150px; margin-top: 10px;}
+#code {height: 350px;width: 400px; text-align: left; float: left; margin-left: 200px; margin-top: 10px;}
