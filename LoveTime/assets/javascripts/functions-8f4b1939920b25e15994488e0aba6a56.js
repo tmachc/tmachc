@@ -58,7 +58,7 @@ $(function(){
     },6e4);
     var t=new Date;
     t.setFullYear(2014,4,8),
-    t.setHours(21),
+    t.setHours(0),
     t.setMinutes(0),
     t.setSeconds(0),
     t.setMilliseconds(0),
