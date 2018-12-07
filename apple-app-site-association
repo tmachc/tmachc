@@ -1,0 +1,17 @@
+{
+  "applinks":{
+    "apps":[
+
+    ],
+    "details":[
+      {
+        "appID":"2TVCKTMZK3.com.f2pool.F2PoolAPP-test",
+        "paths":[
+          "/LoveTime/",
+          "/*",
+          "/"
+        ]
+      }
+    ]
+  }
+}
